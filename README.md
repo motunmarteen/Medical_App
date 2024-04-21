@@ -36,3 +36,8 @@ The project follows a modular structure for better organization and readability:
 
    ```bash
    git clone https://github.com/motunmarteen/Medical_App.git
+2. Install the required dependencies:
+   pip install -r requirements.txt
+   
+3. Run the FastAPI application:
+   uvicorn main:app --reload
